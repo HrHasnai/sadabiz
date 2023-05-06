@@ -1,0 +1,174 @@
+body {
+}
+.logo {
+  display: none;
+}
+
+/* Navbar Scetion */
+#navbar {
+  flex-direction: column;
+}
+#navbar ul {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Main Header Section */
+.header-content {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 0px 40px 0px;
+}
+#header-left-side {
+  flex-direction: column;
+  order: 2;
+  max-width: 100%;
+}
+#header-right-side {
+  order: 1;
+  max-width: 100%;
+}
+.main-header-button {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.review {
+}
+
+/* Main Features section */
+#main-features {
+  flex-direction: column;
+}
+.feature-content {
+  flex-direction: column;
+  justify-content: center;
+}
+.main-box {
+  flex-direction: column;
+}
+/* Main Post Section */
+.main-area {
+  flex-direction: column;
+  justify-content: center;
+}
+.main-area .right-area {
+  flex-direction: column;
+  justify-content: center;
+}
+.main-area .right-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0px !important;
+  padding: 20px;
+  text-align: center;
+}
+#header-left-side h3{
+  text-align: center;
+}
+#header-left-side h1{
+  line-height: 0.8rem;
+  text-align: center;
+  font-size: 3.5rem !important;
+}
+#header-left-side p {
+  text-align: center;
+}
+
+/* Main Product Section */
+.product-content {
+  flex-direction: column;
+  justify-content: center;
+}
+#product-cards {
+  flex-direction: column;
+}
+/* Main Customer Review Section */
+.main-review-card {
+  flex-direction: column;
+}
+/* Main Subscribe Section  */
+.inliner-subscribe {
+  flex-direction: column;
+}
+.inliner-subscribe .sub-left h1 {
+  text-align: center;
+}
+.inliner-subscribe .sub-left p {
+  text-align: center;
+}
+.inliner-subscribe .sub-left input {
+  display: block;
+  margin: auto;
+}
+.primary-1-btn {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.inliner-subscribe .sub-right h1 {
+  text-align: center;
+}
+.secondary-1-btn {
+  display: block;
+  margin: auto;
+}
+.part a {
+  display: flex;
+  justify-content: center;
+}
+.part h2 {
+  display: flex;
+  justify-content: center;
+}
+
+/* Main Contact US Section  */
+
+.main-contact {
+  flex-direction: column;
+  align-items: center;
+}
+.left-contact {
+  order: 2;
+}
+.right-contact {
+  order: 1;
+}
+.left-contact form{
+  width: 330px !important; 
+}
+/* Sub-Footer Section  */
+
+.sub-footer-content {
+  flex-direction: column;
+  align-items: center;
+}
+.sub-footer-content #part-1 p {
+  text-align: center;
+}
+.sub-footer-content .part .sub-logo {
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.media-icons {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+.sub-footer-content .part .media-icons img {
+}
+
+/* Main Footer Scetion  */
+
+.lower-footer {
+  justify-content: center;
+  flex-direction: column;
+}
+.lower-footer .foot {
+  margin-bottom: 5px;
+}
